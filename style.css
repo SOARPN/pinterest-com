@@ -44,11 +44,24 @@ a[href="#S"] {
 }
 
 
+div.search{
+	width: 800px;
+  	border-radius: 100px;
+ 	height: 50px;
+ 	background-color: #ECF0F1;
+ 	position: relative;
+ 	align-items: justify;
+}
 
 .input-search {
-  width: 800px;
+  max-width: 750px;
+  width: 100%;
   border-radius: 100px;
-  height: 50px;
+  border-style: none;
+  height: 100%;
+  float: right;
+  object-fit: cover;
+  background-color: #ECF0F1;
 
   
 }
@@ -56,9 +69,9 @@ a[href="#S"] {
 .search i {
 	position: absolute;
 	top: 20px;
-  left: 300px;
+  	left: 5px;
 	margin-left: 10px;
-	
+	color: #95A5A6;
 }
 
 article {
